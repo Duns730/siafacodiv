@@ -1,0 +1,15 @@
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (1,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (2,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (3,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (4,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (5,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (6,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (7,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (8,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (9,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (10,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (11,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (12,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (13,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (14,"App\User",1);
+INSERT INTO `model_has_permissions`(`permission_id`, `model_type`, `model_id`) VALUES (15,"App\User",1);

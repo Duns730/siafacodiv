@@ -1,0 +1,14 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Configuration extends Model
+{
+    protected $fillable = [
+        'concept', 'key', 'value', 'type',   
+    ];
+    
+    protected $hidden = ['created_at', 'update_at'];
+}

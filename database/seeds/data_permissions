@@ -1,0 +1,152 @@
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`) 
+VALUES ('clients.index','Listar Clientes','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('clients.create','Crear Clientes','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('clients.edit','Editar Clientes','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('clients.destroy','Eliminar Clientes','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('clients.show','Ver Clientes','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('sellers.index','Listar Vendedores','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('sellers.create','Crear Vendedores','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('sellers.edit','Editar Vendedores','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('sellers.destroy','Eliminar Vendedores','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('sellers.show','Ver Vendedores','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('users.index','Listar Usuarios','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('users.create','Crear Usuarios','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('users.edit','Editar Usuarios','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('users.destroy','Eliminar Usuarios','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('users.show','Ver Usuarios','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('negotiations.index','Listar Negociaciones','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('negotiations.create','Crear Negociaciones','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('negotiations.edit','Editar Negociaciones','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('negotiations.destroy','Eliminar Negociaciones','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('negotiations.show','Ver Negociaciones','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('negotiations.selection.warehouse','Enviar Negociación a Almacén(Selección)','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('negotiations.warehouse.packing','Enviar Negociación a Almacén(Embalaje)','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('negotiations.warehouse.packed','Recepción de Negociación de Almacén(Embalado)','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('products.index','Listar Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('products.create','Crear Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('products.edit','Editar Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('products.destroy','Eliminar Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('products.show','Ver Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('products.image.edit','Editar Imagenes de Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('products.prices.edit','Editar Precios de Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('products.massiveload','Carga Masiva de Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('products.massiveupdate','Actualización Masiva de Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('proformas.index','Listar Proformas','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('proformas.create','Crear Proformas','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('proformas.edit','Editar Proformas','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('proformas.destroy','Eliminar Proformas','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('proformas.show','Ver Proformas','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('proformas.debug','Depurar Proformas','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('proformas.invoiced','Facturar Proformas','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('proformas.invoices.annul','Anular Proformas Facturadas','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('proformas.create.provisional','Crear Proformas Provisionales','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('proformas.provisional.convert.fiscal','Convertir Proformas Provisionalesen Fiscales','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('purchases.index','Listar Compras','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('purchases.create','Crear Compras','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('purchases.edit','Editar Compras','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('purchases.destroy','Eliminar Compras','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('purchases.show','Ver Compras','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('purchases.load','Cargar Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('purchases.load.edit','Editar Carga de Compra','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('purchases.massiveload','Carga Masiva de Productos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('separatedproducts.create','Control de Cantidades','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`) 
+VALUES ('banks.index','Listar Bancos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('banks.create','Crear Bancos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('banks.edit','Editar Bancos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('banks.destroy','Eliminar Bancos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('banks.show','Ver Bancos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`) 
+VALUES ('payments.index','Listar Pagos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('payments.process','Procesar Pagos','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('payments.show.iva','Ver Pagos de IVA','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('payments.show.invoice','Ver Pagos de Factura','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`) 
+VALUES ('configurations.index','Listar Configuraciones','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('transports.index','Listar Trasportes','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('transports.create','Crear Trasportes','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('transports.edit','Editar Trasportes','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('transports.destroy','Eliminar Trasportes','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('transports.show','Ver Trasportes','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('creditnotes.index','Listar Notas de Credito','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('creditnotes.create','Crear Notas de Credito','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
+INSERT INTO `permissions`(`name`, `description`, `guard_name`, `created_at`, `updated_at`)  
+VALUES ('creditnotes.show','Ver Notas de Credito','web','2020-12-15 11:01:54','2020-12-15 11:01:54');
