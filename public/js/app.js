@@ -13935,7 +13935,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 })));
 
-Vue.prototype.$api_url = "http://siacodiv.test/api/"
-Vue.prototype.$base_url = "http://siacodiv.test/"
-const api_url = "http://siacodiv.test/api/"
-const base_url = "http://siacodiv.test/"
+Vue.prototype.$api_url = "http://siafacodiv.test/api/"
+Vue.prototype.$base_url = "http://siafacodiv.test/"
+const api_url = "http://siafacodiv.test/api/"
+const base_url = "http://siafacodiv.test/"
