@@ -40,7 +40,7 @@ class PermissionsListSeeder extends Seeder
         ['name' => 'negotiations.edit', 'description' => 'Editar Negociaciones', 'guard_name' => 'web'],
         ['name' => 'negotiations.destroy', 'description' => 'Eliminar Negociaciones', 'guard_name' => 'web'],
         ['name' => 'negotiations.show', 'description' => 'Ver Negociaciones', 'guard_name' => 'web'],
-        ['name' => 'negotiations.selection', 'description' => 'Enviar Negociación a Almacén(Selección)', 'guard_name' => 'web'],
+        ['name' => 'negotiations.selection.warehouse', 'description' => 'Enviar Negociación a Almacén(Selección)', 'guard_name' => 'web'],
         ['name' => 'negotiations.warehouse.packing', 'description' => 'Enviar Negociación a Almacén(Embalaje)', 'guard_name' => 'web'],
         ['name' => 'negotiations.warehouse.packed', 'description' => 'Recepción de Negociación de Almacén(Embalado)', 'guard_name' => 'web'],
 

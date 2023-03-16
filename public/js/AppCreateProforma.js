@@ -65,13 +65,13 @@ Vue.component('create-proforma', {
       <div class="item form-group">
         <label for="factor" class="col-form-label col-md-2 col-sm-2 label-align">Factor de Cambio</label>
         <div class="col-md-3 col-sm-3 ">
-            <input name="factor" class="form-control" type="number"
+            <input name="factor" class="form-control" type="number" step="0.01"
               v-model="$store.state.factor"
               @change="$store.commit('calculateSubtotales')"
             >
         </div>
 
-        <label for="factor" class="col-form-label col-md-2 col-sm-2 label-align">Provisional</label>
+        <label class="col-form-label col-md-2 col-sm-2 label-align">Provisional</label>
         <div class="col-md-3 col-sm-3 ">
             <input name="provisional" class="form-control" type="checkbox"
               v-model="$store.state.provisional"

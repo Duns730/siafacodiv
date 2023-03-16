@@ -14,7 +14,7 @@ class AddStartingAmountToNegotiations extends Migration
     public function up()
     {
         Schema::table('negotiations', function (Blueprint $table) {
-            $table->decimal('starting_amount', 10, 2);
+            $table->decimal('starting_amount', 10, 2)->nullable();
         });
     }
 

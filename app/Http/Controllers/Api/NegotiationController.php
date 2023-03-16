@@ -78,9 +78,8 @@ class NegotiationController extends Controller
     public function selectionWarehouseActive(Request $request)
     {
         $user = User::where('id', $request->data['user_id'])->firstOrFail();
-        
 
-        if ($user->hasPermissionTo('negotiations.selection.warehouse')){
+        if ($user->hasPermissionTo('negotiations.selection.warehouse') || $user->hasRole('super.admin')){
             $negotiation = Negotiation::where('id', $request->data['negotiation_id'])->firstOrFail();
             if (!empty($negotiation->proformed_date)) {
                 $negotiation->selection_warehouse_date = date('Y-m-d H:i:s');
@@ -121,7 +120,7 @@ class NegotiationController extends Controller
         $user = User::where('id', $request->data['user_id'])->firstOrFail();
         
 
-        if ($user->hasPermissionTo('negotiations.warehouse.packing')){
+        if ($user->hasPermissionTo('negotiations.warehouse.packing') || $user->hasRole('super.admin')){
             $negotiation = Negotiation::where('id', $request->data['negotiation_id'])->firstOrFail();
             if (!empty($negotiation->invoice_date)) {
                 $negotiation->warehouse_packing_date = date('Y-m-d H:i:s');
@@ -160,7 +159,7 @@ class NegotiationController extends Controller
     {
         $user = User::where('id', $request->data['user_id'])->firstOrFail();
         
-        if ($user->hasPermissionTo('negotiations.warehouse.packed')){
+        if ($user->hasPermissionTo('negotiations.warehouse.packed') || $user->hasRole('super.admin')){
             $negotiation = Negotiation::where('id', $request->data['negotiation_id'])->firstOrFail();
             if (!empty($negotiation->warehouse_packing_date)) {
                 $negotiation->warehouse_packed_date = date('Y-m-d H:i:s');
